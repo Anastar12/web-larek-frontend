@@ -28,8 +28,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "src/pages/index.html",
-      publicPath: "/web-larek-frontend/"
+      template: "src/pages/index.html"
     }),
 
     new MiniCssExtractPlugin(),
