@@ -46,6 +46,15 @@
     "deploy": "gh-pages -d dist",
     "dev": "webpack serve"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anastar12/web-larek-frontend.git"
+  },
+  "author": "Anna",
+  "bugs": {
+    "url": "https://github.com/Anastar12/web-larek-frontend/issues"
+  },
+  "homepage": "https://Anastar12.github.io/web-larek-frontend",
   "dependencies": {
     "process": "^0.11.10"
   }
