@@ -18,3 +18,7 @@
 ## UML-схема
 
 ![alt text](uml.png)
+
+## Ссылка на Github Pages
+
+https://anastar12.github.io/web-larek-frontend/
