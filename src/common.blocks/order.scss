@@ -3,16 +3,19 @@
 
 .order {
   @include mixins.flex(column);
-  gap: 4rem;
-  margin-bottom: 4rem;
+  gap: 1rem;
 
   &__field {
     @include mixins.flex(column);
-    gap: 1.5rem;
   }
 
   &__buttons {
     @include mixins.flex(row);
-    gap: 1.5rem;
+    gap: 1rem;
+    font-size: 0.8em;
+  }
+
+  &__gap {
+    margin: 0.95rem 0;
   }
 }

@@ -7,7 +7,7 @@
   border-radius: $defaultBorderRadius;
   background-color: $primary;
   color: white;
-  padding: $defaultPadding;
+  padding: $defaultPadding * 0.5 $defaultPadding;
 
   &_full {
     flex-direction: row;
@@ -41,12 +41,13 @@
   }
 
   &__image {
-    height: 390px;
+    height: 205px;
     aspect-ratio: 1;
-    margin: 3.75rem;
+    margin: 1.875rem;
+    margin-right: 3rem;
   }
   &__title {
-    font-size: $titleFontSize;
+    font-size: $titleFontSize * 0.5;
     font-weight: 500;
     margin: 0;
     flex-grow: 1;
@@ -56,7 +57,7 @@
     flex-grow: 1;
   }
   &__category {
-    padding: 0.5rem 1.25rem;
+    padding: 0.25rem 0.625rem;
     border-radius: 2.5rem;
     margin-bottom: 12px;
     color: $primary;

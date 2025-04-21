@@ -4,6 +4,10 @@
 .button {
   @include mixins.button($primary, white, $hover);
   border: 0;
+  padding: 16px 20px;
+  font-size: 0.95em;
+  min-width: 0;
+  height: auto;
 
   &_alt {
     @include mixins.button(white, $primaryLight, $primaryLight);

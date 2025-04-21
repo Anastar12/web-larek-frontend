@@ -9,8 +9,9 @@
   justify-content: center;
   background-color: $overlayBackground;
   z-index: 100;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  align-items: center;
+  padding: 13.75vh 0;
+  overflow-y: auto;
 
   &_active {
     display: flex;
@@ -21,7 +22,8 @@
     @include mixins.flex(column);
     gap: $defaultPadding;
     background-color: $background;
-    min-height: 90vmin;
+    min-height: 72.5vmin;
+    max-width: 70vw;
     border-radius: 3rem;
     box-sizing: border-box;
     position: relative;
@@ -32,8 +34,7 @@
   }
 
   &__title {
-    margin: 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
   }
 

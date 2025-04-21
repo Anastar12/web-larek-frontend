@@ -2,18 +2,18 @@
 @use "mixins";
 
 .header {
-  height: $headerHeight;
+  height: $headerHeight * 0.5;
   background-color: $primary;
 
   &__container {
-    @include mixins.container(45px,45px);
+    @include mixins.container(18px,18px);
     @include mixins.flex(row);
     align-items: center;
     justify-content: space-between;
   }
 
   &__logo {
-    height: $headerElementsSize;
+    height: $headerElementsSize * 0.5;
   }
 
   &__logo {
@@ -27,6 +27,9 @@
     //@include mixins.icon($headerElementsSize, 'basket-2');
     @include mixins.link($primary, $hover);
     background-image: url(../images/shopping_cart.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 58px;
     width: 58px;
     border: none;
